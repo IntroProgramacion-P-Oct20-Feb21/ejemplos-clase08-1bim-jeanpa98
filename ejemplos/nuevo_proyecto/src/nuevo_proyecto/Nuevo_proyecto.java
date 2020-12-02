@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkgnew.proyect;
+package nuevo_proyecto;
 
 /**
  *
  * @author JEanpa
  */
-public class NewProyect {
+public class Nuevo_proyecto {
 
     /**
      * @param args the command line arguments
