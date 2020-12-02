@@ -14,6 +14,9 @@
  */
 package ejemplosrepaso;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -21,9 +24,20 @@ package ejemplosrepaso;
 public class Ejemplo05 {
 
     public static void main(String[] args) {
+       Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+       
         boolean bandera = true;
-        while (bandera) {
-            System.out.println("Usted está en el ciclo");
+        String salir;
+       
+        do {
+            System.out.println("Desea salir del ciclo; digite: salir");
+            salir = entrada.nextLine(); //SI Si si
+            salir = salir.toLowerCase(); // siempre la cadena la hago minuscula: si, si, 
+            if(salir.equals("salir")){
+                bandera = false;
+        while (bandera) 
+        
         }
     }
 }

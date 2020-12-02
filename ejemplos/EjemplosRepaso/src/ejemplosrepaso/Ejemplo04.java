@@ -44,10 +44,13 @@ public class Ejemplo04 {
 
             case 4:
                 region = "Región Insular";
-                break;
+                break; 
+                
+            default
+                    ;    
         }
 
         System.out.printf("Usted seleccionó: %s\n", region);
-    }
+  }
 
 }
